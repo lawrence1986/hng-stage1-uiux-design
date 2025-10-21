@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>02_Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Shared Styles */
+    :root {
+      --primary:#4AB7FF;--secondary:#FFD93D;--background:#F5F5F5;--text-dark:#2D3142;--text-light:#555B6E;
+    }
+    body{font-family:'Nunito',sans-serif;background:var(--background);margin:0;text-align:center;}
+    h1{font-family:'Poppins',sans-serif;}
+    .menu{display:flex;flex-direction:column;gap:16px;padding:40px;}
+    .card{background:#fff;border-radius:16px;padding:24px;box-shadow:0 4px 8px rgba(0,0,0,0.05);}
+    .btn{background:var(--primary);color:#fff;padding:12px 24px;border-radius:16px;text-decoration:none;font-weight:600;}
+  </style>
+</head>
+<body>
+  <h1>Welcome, Coder!</h1>
+  <div class="menu">
+    <div class="card"><h2>🎓 Start Lesson</h2><a href="03_Lesson.html" class="btn">Begin</a></div>
+    <div class="card"><h2>🎮 Play Game</h2><a href="#" class="btn">Play</a></div>
+    <div class="card"><h2>⭐ My Progress</h2><a href="04_Challenge_Progress.html" class="btn">View</a></div>
+  </div>
+  
+  <style>
+  :root {
+    --primary: #4AB7FF;
+    --secondary: #FFD93D;
+    --success: #4CD964;
+    --error: #FF6F61;
+    --background: #F5F5F5;
+    --text-dark: #2D3142;
+    --text-light: #555B6E;
+  }
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--background);
+    margin: 0;
+    padding: 0;
+    color: var(--text-dark);
+  }
+
+  h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    background: var(--primary);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(74, 183, 255, 0.3);
+    transition: 0.3s;
+  }
+  .btn:hover { background: #3ca2e6; }
+
+  .container {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 32px;
+    text-align: center;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 24px;
+    margin-top: 20px;
+  }
+</style>
+
+</body>
+</html>
