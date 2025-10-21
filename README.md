@@ -25,4 +25,4 @@ This repository contains the **FunBot** design system and visual style guide for
 - When adding new screens, follow the spacing and type scale in the guide.
 
 ---
-Generated for: Lawrence Maduabuchi — Stage 1 Task 1 (Mobile Coding App for Kids)
+BY: Lawrence Maduabuchi — Stage 1 Task 1 (Mobile Coding App for Kids)
